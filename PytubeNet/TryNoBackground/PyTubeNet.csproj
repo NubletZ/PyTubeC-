@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="550px-Pointing_hand_cursor_vector.svg.png" />
+    <None Remove="5RGtgUnK7ujjEQkSKFFvdD.jpg" />
+    <None Remove="ball1.jpg" />
+    <None Remove="ball1.png" />
+    <None Remove="EMyj0UBUcAAtv5h.jpg" />
+    <None Remove="pointHand.png" />
+    <None Remove="pointHandBl.png" />
+    <None Remove="soil.png" />
+    <None Remove="soilBG.jpg" />
+    <None Remove="tinybearshadeWEB2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Python.Included" Version="3.7.3.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="550px-Pointing_hand_cursor_vector.svg.png" />
+    <Resource Include="5RGtgUnK7ujjEQkSKFFvdD.jpg" />
+    <Resource Include="ball1.jpg" />
+    <Resource Include="ball1.png" />
+    <Resource Include="EMyj0UBUcAAtv5h.jpg" />
+    <Resource Include="pointHand.png" />
+    <Resource Include="pointHandBl.png" />
+    <Resource Include="soil.png" />
+    <Resource Include="soilBG.jpg" />
+    <Resource Include="tinybearshadeWEB2.jpg" />
+  </ItemGroup>
+
+</Project>

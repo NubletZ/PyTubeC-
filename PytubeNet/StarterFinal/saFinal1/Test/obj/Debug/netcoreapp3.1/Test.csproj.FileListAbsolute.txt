@@ -1,0 +1,27 @@
+D:\WPF\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.exe
+D:\WPF\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+D:\WPF\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+D:\WPF\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+D:\WPF\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.dll
+D:\WPF\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.pdb
+D:\WPF\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache
+D:\WPF\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+D:\WPF\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+D:\WPF\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+D:\WPF\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.dll
+D:\WPF\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.pdb
+D:\WPF\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.exe
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.dll
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\bin\Debug\netcoreapp3.1\Test.pdb
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.dll
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.pdb
+D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\StarterFinal\saFinal1\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
