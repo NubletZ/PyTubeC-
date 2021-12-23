@@ -22,3 +22,27 @@ D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\TryNoBa
 D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.dll
 D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.pdb
 D:\The Kunils\Kuliah\Tahun 3\Semester 1\Operating System\TryNoBackground\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.genruntimeconfig.cache
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\PyTubeNet.exe
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\PyTubeNet.deps.json
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\PyTubeNet.runtimeconfig.json
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\PyTubeNet.runtimeconfig.dev.json
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\PyTubeNet.dll
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\PyTubeNet.pdb
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\Python.Deployment.dll
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\Python.Included.dll
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\bin\x64\Debug\netcoreapp3.1\Python.Runtime.dll
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.csproj.AssemblyReference.cache
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\App.g.cs
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet_MarkupCompile.cache
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet_MarkupCompile.lref
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\MainWindow.baml
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.g.resources
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.AssemblyInfoInputs.cache
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.AssemblyInfo.cs
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.csproj.CoreCompileInputs.cache
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.csproj.CopyComplete
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.dll
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.pdb
+D:\The Kunils\Kuliah\Tahun 3\110Git\tempSa\PyTubeC-\PytubeNet\TryNoBackground\obj\x64\Debug\netcoreapp3.1\PyTubeNet.genruntimeconfig.cache

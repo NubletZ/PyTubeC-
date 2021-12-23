@@ -24,7 +24,7 @@ namespace TryNoBackground
             Debug.WriteLine($"Working directory : {Path.GetFullPath(".")}");
             await Installer.SetupPython();
             string curPath = Directory.GetCurrentDirectory();
-            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
+            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64\python37.zip;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
             PythonEngine.Initialize();
         }
 
@@ -35,7 +35,7 @@ namespace TryNoBackground
             Debug.WriteLine($"Working directory : {Path.GetFullPath(".")}");
             Installer.SetupPython();
             string curPath = Directory.GetCurrentDirectory();
-            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
+            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64\python37.zip;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
             PythonEngine.Initialize();
             pyInit = PythonEngine.IsInitialized;
         }

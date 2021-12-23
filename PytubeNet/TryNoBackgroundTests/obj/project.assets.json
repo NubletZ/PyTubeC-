@@ -6209,11 +6209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
+      "projectUniqueName": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
       "projectName": "TryNoBackgroundTests",
-      "projectPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
+      "projectPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\obj\\",
+      "outputPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6230,8 +6230,8 @@
         "netcoreapp3.1": {
           "targetAlias": ".NETCoreApp,Version=v3.1",
           "projectReferences": {
-            "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj": {
-              "projectPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj"
+            "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj": {
+              "projectPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj"
             }
           }
         }
