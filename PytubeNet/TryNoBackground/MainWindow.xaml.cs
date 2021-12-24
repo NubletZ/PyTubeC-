@@ -20,24 +20,33 @@ namespace TryNoBackground
 
         public async void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            Installer.InstallPath = Path.GetFullPath("."); //to declare workdir
-            Debug.WriteLine($"Working directory : {Path.GetFullPath(".")}");
+            string curPath = Path.GetFullPath(".");
+            Installer.InstallPath = @$"{curPath}"; //to declare workdir
+            Debug.WriteLine($"Working directory : {curPath}");
             await Installer.SetupPython();
-            string curPath = Directory.GetCurrentDirectory();
-            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64\python37.zip;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
+            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64;{curPath}\python-3.7.3-embed-amd64\python37.zip;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;";
+            Debug.WriteLine($"python path = { PythonEngine.PythonPath}");
             PythonEngine.Initialize();
+            if (Installer.IsPipInstalled()) Debug.WriteLine("Pip has been installed :)");
+
+            pytube = PythonEngine.ImportModule("pytube");
         }
 
         public static bool pyInit { get; set; } = false;
+        public static dynamic pytube { get; set; } = null;
+        //function for test only
         public static void startPy()
         {
             Installer.InstallPath = Path.GetFullPath("."); //to declare workdir
             Debug.WriteLine($"Working directory : {Path.GetFullPath(".")}");
             Installer.SetupPython();
             string curPath = Directory.GetCurrentDirectory();
-            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64\python37.zip;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
+            PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64\python37.zip;{curPath}\python-3.7.3-embed-amd64;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
             PythonEngine.Initialize();
+            if (Installer.IsPipInstalled()) Debug.WriteLine("Pip has been installed :)");
             pyInit = PythonEngine.IsInitialized;
+
+            pytube = PythonEngine.ImportModule("pytube");
         }
 
         public static void pyVersion()

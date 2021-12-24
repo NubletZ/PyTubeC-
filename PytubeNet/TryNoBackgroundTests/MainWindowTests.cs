@@ -5,6 +5,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Python.Runtime;
 
 namespace TryNoBackground.Tests
 {
@@ -26,6 +27,14 @@ namespace TryNoBackground.Tests
 
             bool resInit = MainWindow.pyInit;
             Assert.IsTrue(resInit);
+        }
+
+        PyObject dummy;
+        [TestMethod()]
+        public void libraryTest()
+        {
+            MainWindow.startPy();
+            Assert.IsNotNull(MainWindow.pytube);
         }
     }
 }
