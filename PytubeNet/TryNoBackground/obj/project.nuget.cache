@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "y/ZjcSOZWw7mYGHpnd2hjHKX5c7eCHzQLsklpiL0wXDEPfyi4D2DapWL0+tG+KzqaJkS570aIRthXEM22yXEfA==",
+  "dgSpecHash": "40vbyiRZqM25OI4RI4rogSPcMqZDPBaDOqVnBoEq9OjjRNHtcE47smCop3EfN2pnVwmjGXrWnwsD4wQy+3Nb1g==",
   "success": true,
-  "projectFilePath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj",
+  "projectFilePath": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ASUS\\.nuget\\packages\\python.deployment\\1.2.0\\python.deployment.1.2.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\python.included\\3.7.3.13\\python.included.3.7.3.13.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\pythonnet_netstandard_py37_win\\2.5.1\\pythonnet_netstandard_py37_win.2.5.1.nupkg.sha512"
+    "C:\\Users\\s1108\\.nuget\\packages\\python.deployment\\1.2.0\\python.deployment.1.2.0.nupkg.sha512",
+    "C:\\Users\\s1108\\.nuget\\packages\\python.included\\3.7.3.13\\python.included.3.7.3.13.nupkg.sha512",
+    "C:\\Users\\s1108\\.nuget\\packages\\pythonnet_netstandard_py37_win\\2.5.1\\pythonnet_netstandard_py37_win.2.5.1.nupkg.sha512"
   ],
   "logs": []
 }

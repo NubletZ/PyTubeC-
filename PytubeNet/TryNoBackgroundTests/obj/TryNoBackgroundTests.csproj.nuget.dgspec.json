@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj": {}
+    "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj": {}
   },
   "projects": {
-    "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj": {
+    "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
+        "projectUniqueName": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
         "projectName": "TryNoBackgroundTests",
-        "projectPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\obj\\",
+        "projectPath": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\TryNoBackgroundTests.csproj",
+        "packagesPath": "C:\\Users\\s1108\\.nuget\\packages\\",
+        "outputPath": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackgroundTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\s1108\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": ".NETCoreApp,Version=v3.1",
             "projectReferences": {
-              "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj": {
-                "projectPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj"
+              "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj": {
+                "projectPath": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj"
               }
             }
           }
@@ -76,21 +80,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj": {
+    "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj",
+        "projectUniqueName": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj",
         "projectName": "PyTubeNet",
-        "projectPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\The Kunils\\Kuliah\\Tahun 3\\110Git\\tempSa\\PyTubeC-\\PytubeNet\\TryNoBackground\\obj\\",
+        "projectPath": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackground\\PyTubeNet.csproj",
+        "packagesPath": "C:\\Users\\s1108\\.nuget\\packages\\",
+        "outputPath": "D:\\Vscode\\sa110\\PyTubeC-\\PytubeNet\\TryNoBackground\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\s1108\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -139,7 +147,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
