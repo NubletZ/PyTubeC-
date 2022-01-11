@@ -75,7 +75,7 @@ namespace TryNoBackground
             //test.Content = tmp;
             if(urlLabel.Text == "")
             {
-                UrlCheck.Content = "Please paste the URL";
+                UrlCheck.Content = "Please input the URL";
             }
             else if(pathLabel.Text == "")
             {
@@ -83,6 +83,8 @@ namespace TryNoBackground
             }
             else
             {
+                UrlCheck.Content = "";
+                PathCheck.Content = "";
                 pytube.__main__.YouTube(tmp).streams.get_highest_resolution().download(recordpath);
                 MessageBox.Show(pytube.__main__.YouTube(tmp).streams.filter());
             }
