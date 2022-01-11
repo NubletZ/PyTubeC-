@@ -26,6 +26,7 @@
     <None Remove="soil.png" />
     <None Remove="soilBG.jpg" />
     <None Remove="tinybearshadeWEB2.jpg" />
+    <None Remove="TkinterBg.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,6 +44,7 @@
     <Resource Include="soil.png" />
     <Resource Include="soilBG.jpg" />
     <Resource Include="tinybearshadeWEB2.jpg" />
+    <Resource Include="TkinterBg.png" />
   </ItemGroup>
 
 </Project>
