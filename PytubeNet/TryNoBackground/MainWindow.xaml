@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TryNoBackground"
         mc:Ignorable="d"
-        Title="Youtube Downloader" Height="267" Width="654" Loaded="Window_Loaded" Unloaded="Window_Unloaded" ResizeMode="NoResize">
+        Title="Youtube Downloader" Height="267" Width="654" Loaded="Window_Loaded" Unloaded="Window_Unloaded" ResizeMode="CanResize">
     <Window.Resources>
         <Storyboard x:Key="showBall">
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)">
@@ -156,22 +156,24 @@
         </Image>
         <Label Content="Insert URL :" HorizontalAlignment="Left" Height="40" Margin="53,60,0,0" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Normal" Foreground="White"/>
         <Label Content="Path :" HorizontalAlignment="Left" Height="40" Margin="53,0,0,0" VerticalAlignment="Center" Width="171" FontSize="18" FontWeight="Normal" Foreground="White"/>
-        <TextBox x:Name="urlLabel" Text="TextBox" TextWrapping="Wrap" Margin="165,67,77,158">
+        <TextBox x:Name="urlLabel" TextWrapping="Wrap" Margin="165,67,77,158" TextChanged="urlLabel_TextChanged">
             <TextBox.BorderBrush>
                 <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
             </TextBox.BorderBrush>
         </TextBox>
-        <TextBox x:Name="pathLabel" Text="TextBox" TextWrapping="Wrap" Margin="165,112,77,112">
+        <TextBox x:Name="pathLabel" TextWrapping="Wrap" Margin="165,112,77,112">
             <TextBox.BorderBrush>
                 <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
             </TextBox.BorderBrush>
         </TextBox>
-        <Button x:Name="openFolder" Content="..." HorizontalAlignment="Left" Height="27" Margin="537,0,0,0" VerticalAlignment="Center" Width="40" Foreground="#FF633119" Background="#FFFF9747" BorderThickness="0,0,0,0"/>
+        <Button x:Name="openFolder" Content="..." HorizontalAlignment="Left" Height="27" Margin="537,0,0,0" VerticalAlignment="Center" Width="40" Foreground="#FF633119" Background="#FFFF9747" BorderThickness="0,0,0,0" Click="openFolder_Click"/>
         <ComboBox HorizontalAlignment="Left" Height="24" Margin="165,162,0,0" VerticalAlignment="Top" Width="91" Background="#FFFF9747">
-            <ComboBoxItem Content="360px"></ComboBoxItem>
+            <ComboBoxItem x:Name="resolution" IsSelected="True" Content="360px"></ComboBoxItem>
             <ComboBoxItem Content="720px"></ComboBoxItem>
         </ComboBox>
         <Label Content="Resolution :" HorizontalAlignment="Left" Height="40" Margin="53,154,0,0" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Normal" Foreground="White"/>
-        <Button Content="Download" HorizontalAlignment="Left" Margin="297,202,0,0" VerticalAlignment="Top" Height="39" Width="104" BorderThickness="0,0,0,0" Background="#FFFF9747" Foreground="#FF633119" FontWeight="Normal"/>
+        <Button x:Name="clickButton" Content="Download" HorizontalAlignment="Left" Margin="297,202,0,0" VerticalAlignment="Top" Height="39" Width="104" BorderThickness="0,0,0,0" Background="#FFFF9747" Foreground="#FF633119" FontWeight="Normal" Click="Button_Click"/>
+        <Label x:Name="UrlCheck" Content="Label" HorizontalAlignment="Left" Margin="582,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="PathCheck" Content="Label" HorizontalAlignment="Left" Margin="582,0,0,0" VerticalAlignment="Center"/>
     </Grid>
 </Window>
