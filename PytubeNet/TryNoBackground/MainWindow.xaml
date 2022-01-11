@@ -156,12 +156,12 @@
         </Image>
         <Label Content="Insert URL :" HorizontalAlignment="Left" Height="40" Margin="53,60,0,0" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Normal" Foreground="White"/>
         <Label Content="Path :" HorizontalAlignment="Left" Height="40" Margin="53,0,0,0" VerticalAlignment="Center" Width="171" FontSize="18" FontWeight="Normal" Foreground="White"/>
-        <TextBox x:Name="urlLabel" Text="TextBox" TextWrapping="Wrap" Margin="165,67,77,158" TextChanged="urlLabel_TextChanged">
+        <TextBox x:Name="urlLabel" TextWrapping="Wrap" Margin="165,67,77,158" TextChanged="urlLabel_TextChanged">
             <TextBox.BorderBrush>
                 <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
             </TextBox.BorderBrush>
         </TextBox>
-        <TextBox x:Name="pathLabel" Text="TextBox" TextWrapping="Wrap" Margin="165,112,77,112">
+        <TextBox x:Name="pathLabel" TextWrapping="Wrap" Margin="165,112,77,112">
             <TextBox.BorderBrush>
                 <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
             </TextBox.BorderBrush>
@@ -173,5 +173,7 @@
         </ComboBox>
         <Label Content="Resolution :" HorizontalAlignment="Left" Height="40" Margin="53,154,0,0" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Normal" Foreground="White"/>
         <Button x:Name="clickButton" Content="Download" HorizontalAlignment="Left" Margin="297,202,0,0" VerticalAlignment="Top" Height="39" Width="104" BorderThickness="0,0,0,0" Background="#FFFF9747" Foreground="#FF633119" FontWeight="Normal" Click="Button_Click"/>
+        <Label x:Name="UrlCheck" Content="Label" HorizontalAlignment="Left" Margin="582,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="PathCheck" Content="Label" HorizontalAlignment="Left" Margin="582,0,0,0" VerticalAlignment="Center"/>
     </Grid>
 </Window>

@@ -73,8 +73,19 @@ namespace TryNoBackground
         {
             string tmp = urlLabel.Text;
             //test.Content = tmp;
-            pytube.__main__.YouTube(tmp).streams.get_highest_resolution().download(recordpath);
-            MessageBox.Show(pytube.__main__.YouTube(tmp).streams.filter());
+            if(urlLabel.Text == "")
+            {
+                UrlCheck.Content = "Please paste the URL";
+            }
+            else if(pathLabel.Text == "")
+            {
+                PathCheck.Content = "Please select the folder";
+            }
+            else
+            {
+                pytube.__main__.YouTube(tmp).streams.get_highest_resolution().download(recordpath);
+                MessageBox.Show(pytube.__main__.YouTube(tmp).streams.filter());
+            }
         }
 
 
