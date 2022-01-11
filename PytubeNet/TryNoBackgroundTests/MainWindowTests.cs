@@ -36,5 +36,12 @@ namespace TryNoBackground.Tests
             MainWindow.startPy();
             Assert.IsNotNull(MainWindow.pytube);
         }
+
+        [TestMethod()]
+        public void videoTest()
+        {
+            string filepath = $"{MainWindow.recordpath}/周杰倫 Jay Chou【稻香 Rice Field】-Official Music Video.mp4";
+            Assert.IsTrue(File.Exists(filepath), "The video have not been downloaded yet!");
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Python.Included;
+﻿using Microsoft.Win32;
+using Python.Included;
 using Python.Runtime;
 using System;
 using System.Diagnostics;
@@ -47,6 +48,9 @@ namespace TryNoBackground
             pyInit = PythonEngine.IsInitialized;
 
             pytube = PythonEngine.ImportModule("pytube");
+            recordpath = Directory.GetCurrentDirectory();
+            string tmp = "https://www.youtube.com/watch?v=sHD_z90ZKV0";
+            pytube.__main__.YouTube(tmp).streams.get_highest_resolution().download(recordpath);
         }
 
         public static void pyVersion()
@@ -58,6 +62,37 @@ namespace TryNoBackground
         private void Window_Unloaded(object sender, RoutedEventArgs e)
         {
             //cv2.destroyAllWindows();
+        }
+
+        private void urlLabel_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string tmp = urlLabel.Text;
+            //test.Content = tmp;
+            pytube.__main__.YouTube(tmp).streams.get_highest_resolution().download(recordpath);
+            MessageBox.Show(pytube.__main__.YouTube(tmp).streams.filter());
+        }
+
+
+        public static string recordpath { get; set; }
+        private void openFolder_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFile = new OpenFileDialog();
+
+            openFile.ValidateNames = false;
+            openFile.CheckFileExists = false;
+            openFile.CheckPathExists = true;
+            openFile.FileName = "Folder Selection.";
+            if (openFile.ShowDialog() == true)
+            {
+                string folderPath = Path.GetDirectoryName(openFile.FileName);
+                recordpath = Path.GetFullPath(folderPath);
+                pathLabel.Text = recordpath;
+            }
         }
     }
 }
