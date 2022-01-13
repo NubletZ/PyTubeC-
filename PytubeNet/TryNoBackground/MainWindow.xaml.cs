@@ -36,11 +36,11 @@ namespace TryNoBackground
         public static bool pyInit { get; set; } = false;
         public static dynamic pytube { get; set; } = null;
         //function for test only
-        public static void startPy()
+        public async static void startPy()
         {
             Installer.InstallPath = Path.GetFullPath("."); //to declare workdir
             Debug.WriteLine($"Working directory : {Path.GetFullPath(".")}");
-            Installer.SetupPython();
+            await Installer.SetupPython();
             string curPath = Directory.GetCurrentDirectory();
             PythonEngine.PythonPath = @$"{curPath}\python-3.7.3-embed-amd64\python37.zip;{curPath}\python-3.7.3-embed-amd64;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages;{curPath}\python-3.7.3-embed-amd64\Lib\site-packages\numpy\core";
             PythonEngine.Initialize();
